@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oi oi</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .painel {
+            background-color: lightgray;
+            width: 90%;
+            max-width: 500px;
+            height: 90%;
+            max-height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #sim, #nao {
+            height: 40px;
+            width: 60px;
+            background-color: lightgreen;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin: 10px;
+        }
+
+        #nao {
+            position: absolute;
+        }
+
+        @media (max-width: 600px) {
+            .painel {
+                width: 100%;
+                height: 100%;
+                padding-top: 20px;
+            }
+
+            #sim, #nao {
+                height: 30px;
+                width: 50px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1>Oi schai ʕ•́ᴥ•̀ʔっ</h1>
+
+        <img src="https://i.gifer.com/origin/c2/c2cab14293a0748bf2b3a7197dc3e048_w200.gif" alt="">
+
+        <h2>Já vai lá na weg Quarta-feira?</h2>
+
+        <a href="https://www.youtube.com/shorts/T8bO1iKu76g"><button id="sim">Sim!</button></a>
+        <button onmouseover="fuja()" id="nao">Não
